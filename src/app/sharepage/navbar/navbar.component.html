@@ -1,0 +1,107 @@
+<!--<div class="row">
+  <div class="box">
+    <i class="bi bi-person-circle"></i>
+  <button  onclick="window.open('../app/pages/home/login');">Minha Conta</button>
+  </div>
+</div>
+
+
+<mat-toolbar color="primary">
+  <i class="bi bi-joystick"></i>
+
+  <button   mat-button [matMenuTriggerFor]="geek">Mundo Geek</button>
+<mat-menu #geek="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="animes">Animes</button>
+  <button mat-menu-item [matMenuTriggerFor]="quadrinhos">Quadrinhos</button>
+  <button mat-menu-item [matMenuTriggerFor]="series">Series</button>
+  <button mat-menu-item [matMenuTriggerFor]="filmes">Filmes</button>
+</mat-menu>
+
+<mat-menu #animes="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="onepiece">One Piece</button>
+  <button mat-menu-item [matMenuTriggerFor]="naruto">Naruto</button>
+  <button mat-menu-item [matMenuTriggerFor]="dragonball">Dragon Ball</button>
+  <button mat-menu-item>Shingeki No Kyojin</button>
+  <button mat-menu-item>Digimon</button>
+</mat-menu>
+
+<mat-menu #quadrinhos="matMenu">
+  <button mat-menu-item>Mangas</button>
+  <button mat-menu-item>D.C</button>
+  <button mat-menu-item>Marvel</button>
+
+</mat-menu>
+
+<mat-menu #onepiece="matMenu">
+  <button mat-menu-item>Chapeu de Palha</button>
+  <button mat-menu-item>Going Merry</button>
+  <button mat-menu-item>Monkey D. Luffy</button>
+  <button mat-menu-item>Zoro</button>
+  <button mat-menu-item>Bando Completo</button>
+</mat-menu>
+
+<mat-menu #naruto="matMenu">
+  <button mat-menu-item>Naruto Uzumaki</button>
+  <button mat-menu-item>Aldeia da Folha</button>
+  <button mat-menu-item>Akatsuke</button>
+  <button mat-menu-item>Boruto</button>
+</mat-menu>
+
+<mat-menu #dragonball="matMenu">
+  <button mat-menu-item>Goku</button>
+  <button mat-menu-item>Esferas do Dragão</button>
+  <button mat-menu-item>Dragon Ball Z</button>
+  <button mat-menu-item>Dragon Ball GT</button>
+  <button mat-menu-item>Dragon Ball Game</button>
+</mat-menu>
+
+<mat-menu #series="matMenu">
+  <button mat-menu-item>Game Of thrones</button>
+  <button mat-menu-item>Anéis do Poder</button>
+  <button mat-menu-item>The Big Bang Theory</button>
+</mat-menu>
+
+<mat-menu #filmes="matMenu">
+  <button mat-menu-item>Harry Potter</button>
+  <button mat-menu-item>Jogos Vorazes</button>
+  <button mat-menu-item>Senhor dos Anéis</button>
+</mat-menu>
+
+
+</mat-toolbar>-->
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>

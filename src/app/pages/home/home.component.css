@@ -1,0 +1,94 @@
+.banner{
+  background-image: url('../../../assets/img/logo1.png');
+  height: 600px;
+  background-position: center top;
+  background-size: cover;
+}
+
+
+
+.content{
+  top: 43%;
+  left: 40%;
+  position: absolute;
+}
+.content h1{
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+}
+.content a{
+  text-decoration: none;
+  background-color: white;
+  color: blueviolet;
+  padding: 16px 20px ;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.content a:hover{
+  background-color: blueviolet;
+  color: white;
+}
+.Box{
+  background-color: rgb(66, 60, 60);
+  padding: 20px 20px;
+  border-radius: 5px;
+  text-align: center;
+
+}
+.Box h1{
+  color: yellow;
+  font-size: 50px;
+  font-weight: bold;
+}
+.Box h2 {
+  padding: 20px 20px;
+
+}
+.Box p{
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+.foodbox
+{
+  padding: 10px 5px;
+}
+.foodbox img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+.foodbox h1{
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+.carousel-item{
+  background-image: black;
+}
+
+.card-body{
+  text-align: center;
+}
+.main-title {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+h1#principal.text-center{
+  color: black;
+  font-family: fantasy;
+  font-size: 40px;
+}
+h2#titulobox{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
